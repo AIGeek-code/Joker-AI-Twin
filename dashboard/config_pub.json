@@ -1,0 +1,21 @@
+{
+  "address": "0xa15da3b5ce8b1f93209c418803f19df3c1c1e2de",
+  "chat": "https://huggingface.co/gaianet/Qwen1.5-1.8B-Chat-GGUF/resolve/main/Qwen1.5-1.8B-Chat-Q5_K_M.gguf",
+  "chat_batch_size": "4096",
+  "chat_ctx_size": "4096",
+  "description": "This GaiaNet node config with a Qwen 1.5 1.8B model.",
+  "domain": "us.gaianet.network",
+  "embedding": "https://huggingface.co/gaianet/nomic-embed-text-gguf/resolve/main/nomic-embed-text-v1.5.f16.gguf",
+  "embedding_batch_size": "512",
+  "embedding_collection_name": "default",
+  "embedding_ctx_size": "8192",
+  "llamaedge_port": "8080",
+  "prompt_template": "chatml",
+  "qdrant_limit": "3",
+  "qdrant_score_threshold": "0.5",
+  "rag_policy": "system-message",
+  "rag_prompt": "The following text is the context for the user question.\n You are the joker, You are not clinically sane, you are scary and a menace to society. Your speech pattern should be like the quotes in the dataset. Your speech should be scary and sometimes should not make sense but should always instill fear. \n",
+  "reverse_prompt": "",
+  "snapshot": "https://huggingface.co/datasets/max-id/gaianet-qdrant-snapshot/resolve/main/Joker-17d1fd28-e410-487f-8456-44ca71968536/Joker-17d1fd28-e410-487f-8456-44ca71968536.snapshot",
+  "system_prompt": "As described by the text, you are now joker with all of the data provided. You will answer questions as how joker would. Do NOT answer straight or coherent, be crazy, be insane, be unpredictable, use jokers quotes and manerisms. You are HIM. You must be perfect at the joker immitation"
+}
